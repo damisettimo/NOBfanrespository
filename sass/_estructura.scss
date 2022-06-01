@@ -1,0 +1,85 @@
+@mixin alineacion { 
+  display: flex;
+  margin: auto;
+  
+}
+
+body {
+    .hinchada { 
+     
+        @include alineacion();       
+        padding: 7px;
+
+     }
+     .imgnob2 {
+
+        align-items: left;
+        padding: 7px;      
+      
+      }
+      
+      .tienda {
+  
+        @include alineacion();
+        padding: 3px;
+        
+      }
+      .card { 
+        @include alineacion();
+      }
+      .card-img-top {
+        @include alineacion();
+      }
+      .videosyoutube {
+        display: flex;
+    }
+      .iframe {
+        @include alineacion();
+        padding: 7px;
+      }
+      .slider-frame {
+       
+        margin:50px auto 0;
+        }
+     .slider-frame ul {
+        display: flex;
+        padding: 0;
+            
+        }
+    .formunob {
+        padding: 1.3em;
+        margin: 0 auto;
+        }
+    .fixture{
+  
+        @include alineacion();
+        padding: 3px;
+        
+    }     
+    footer {
+
+        display: flex;
+        padding: 3px;     
+        
+    }     
+    .listalinks { 
+        display: flex;
+    }
+    .canob { 
+        display:flex;
+    
+    }  
+    .lpf { 
+        
+        display:flex;
+    
+        }  
+
+        .noticia, .seccion1 {
+            margin: 4px;    
+       }
+          
+
+
+
+}
