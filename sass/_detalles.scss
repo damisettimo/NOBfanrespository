@@ -3,6 +3,7 @@
   max-width: 100%;
 }
 
+
 .seccion1 {
   .titulo {
     font-family: 'Anton', sans-serif;
@@ -18,6 +19,11 @@
     font-family: 'Anton', sans-serif;
     font-weight: 100;
 
+  }
+  .sechistoria {
+    p {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
   }
 
 
@@ -46,6 +52,18 @@
     max-width: 50%;
 
   }
+  #carouselExampleControls {
+    width: 100%;
+  }
+  .carousel {
+    margin-top: 10px;
+    .img-carousel {
+      max-width: 100%;
+    
+    }
+  }
+
+  
 
   .tiendoficial {
     text-align: center;
@@ -154,34 +172,22 @@ footer {
     flex-direction: column;
     font-size: 15px;
     font-family: 'Anton', sans-serif;
+    flex-wrap: wrap;
     
+}
+.flex-row {
+  flex-wrap: wrap;
 }
 .leyendapie { 
     text-align: center;
 
 }
 
-.linkspie { 
-    text-align: center;
- 
-}        
 
-.listalinks {
-    justify-content: space-evenly;
-    flex-direction: row;
-
-
+.flex-row {
+  
+  justify-content: space-between;
 }
-.canob {
-    align-items:center;
-    width: 60px; 
-
-}
-
-.lpf {
-    align-items:center;
-    width: 60px; 
-    }  
 
     @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 

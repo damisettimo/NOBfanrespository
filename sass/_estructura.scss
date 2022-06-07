@@ -55,29 +55,29 @@ body {
         @include alineacion();
         padding: 3px;
         
+    }
+    #carouselExampleControls {
+      margin: 0 auto;
     }     
     footer {
 
         display: flex;
         padding: 3px;     
         
-    }     
-    .listalinks { 
-        display: flex;
     }
-    .canob { 
-        display:flex;
+    .flex-row {
+      display: flex;
+      
+    }
     
-    }  
-    .lpf { 
-        
-        display:flex;
+    .flex-column {
+      display: flex;
+    }     
     
-        }  
-
-        .noticia, .seccion1 {
+    
+    .noticia, .seccion1 {
             margin: 4px;    
-       }
+    }
           
 
 

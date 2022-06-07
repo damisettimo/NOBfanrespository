@@ -4,18 +4,32 @@ $rojofuerte:rgb(211, 11, 11);
 body {
     .encabezado {
 
-        background:url(../imagenes/fondofan.jpg)
+        background:url(../imagenes/fondofan.jpg);
     
     }
 
     section {
         .titulo {
-            color:$rojofuerte
+            color:$rojofuerte;
+            span {
+                color:black;
+            }
         }
         .titulo2 {
             color: $rojofuerte;
         }
+        .titulocamp {
+            color: $rojofuerte;
+            span {
+                color:black;
+            }
+        }
+        #titcamp {
+            color: aqua;
+        }
+ 
     }
+    
     .tiendaoficial {
         background-color:$rojofuerte;
     }
@@ -58,6 +72,17 @@ body {
 
     footer {
         background:$rojofuerte;
+        a {
+            color: rgb(56, 54, 54);
+            
+        }
+        h4 {
+            color: black;
+        }
+        .leyendapie {
+            background-color: black;
+            color: $rojofuerte;
+        }
     }
     .glorias {
         background: url(../imagenes/fondonob.jpg);
