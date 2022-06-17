@@ -5,6 +5,7 @@
 }
 
 body {
+  
     .hinchada { 
      
         @include alineacion();       
@@ -58,6 +59,10 @@ body {
     }
     #carouselExampleControls {
       margin: 0 auto;
+    }
+    .imgcamp {
+      display: flex;
+      
     }     
     footer {
 

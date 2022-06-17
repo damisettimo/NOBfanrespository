@@ -7,6 +7,19 @@ body {
         background:url(../imagenes/fondofan.jpg);
     
     }
+    .sechistoria {
+        .titulocamp {
+            
+            color:$rojofuerte;
+            span {
+                color:black;
+            }
+            .titulo {
+                color:$rojofuerte;
+            }
+        }
+
+    }
 
     section {
         .titulo {
@@ -18,16 +31,12 @@ body {
         .titulo2 {
             color: $rojofuerte;
         }
-        .titulocamp {
-            color: $rojofuerte;
-            span {
-                color:black;
-            }
-        }
-        #titcamp {
-            color: aqua;
-        }
+        
+       
  
+    }
+    .liga {
+        background-color: black;
     }
     
     .tiendaoficial {

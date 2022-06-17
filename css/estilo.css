@@ -1,94 +1,99 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300");
-/* line 8, ../TTTTTTT/sass/_estructura.scss */
+/* line 9, ../TTTTTTT/sass/_estructura.scss */
 body .hinchada {
   display: flex;
   margin: auto;
   padding: 7px;
 }
 
-/* line 14, ../TTTTTTT/sass/_estructura.scss */
+/* line 15, ../TTTTTTT/sass/_estructura.scss */
 body .imgnob2 {
   align-items: left;
   padding: 7px;
 }
 
-/* line 21, ../TTTTTTT/sass/_estructura.scss */
+/* line 22, ../TTTTTTT/sass/_estructura.scss */
 body .tienda {
   display: flex;
   margin: auto;
   padding: 3px;
 }
 
-/* line 27, ../TTTTTTT/sass/_estructura.scss */
+/* line 28, ../TTTTTTT/sass/_estructura.scss */
 body .card {
   display: flex;
   margin: auto;
 }
 
-/* line 30, ../TTTTTTT/sass/_estructura.scss */
+/* line 31, ../TTTTTTT/sass/_estructura.scss */
 body .card-img-top {
   display: flex;
   margin: auto;
 }
 
-/* line 33, ../TTTTTTT/sass/_estructura.scss */
+/* line 34, ../TTTTTTT/sass/_estructura.scss */
 body .videosyoutube {
   display: flex;
 }
 
-/* line 36, ../TTTTTTT/sass/_estructura.scss */
+/* line 37, ../TTTTTTT/sass/_estructura.scss */
 body .iframe {
   display: flex;
   margin: auto;
   padding: 7px;
 }
 
-/* line 40, ../TTTTTTT/sass/_estructura.scss */
+/* line 41, ../TTTTTTT/sass/_estructura.scss */
 body .slider-frame {
   margin: 50px auto 0;
 }
 
-/* line 44, ../TTTTTTT/sass/_estructura.scss */
+/* line 45, ../TTTTTTT/sass/_estructura.scss */
 body .slider-frame ul {
   display: flex;
   padding: 0;
 }
 
-/* line 49, ../TTTTTTT/sass/_estructura.scss */
+/* line 50, ../TTTTTTT/sass/_estructura.scss */
 body .formunob {
   padding: 1.3em;
   margin: 0 auto;
 }
 
-/* line 53, ../TTTTTTT/sass/_estructura.scss */
+/* line 54, ../TTTTTTT/sass/_estructura.scss */
 body .fixture {
   display: flex;
   margin: auto;
   padding: 3px;
 }
 
-/* line 59, ../TTTTTTT/sass/_estructura.scss */
+/* line 60, ../TTTTTTT/sass/_estructura.scss */
 body #carouselExampleControls {
   margin: 0 auto;
 }
 
-/* line 62, ../TTTTTTT/sass/_estructura.scss */
+/* line 63, ../TTTTTTT/sass/_estructura.scss */
+body .imgcamp {
+  display: flex;
+}
+
+/* line 67, ../TTTTTTT/sass/_estructura.scss */
 body footer {
   display: flex;
   padding: 3px;
 }
 
-/* line 68, ../TTTTTTT/sass/_estructura.scss */
+/* line 73, ../TTTTTTT/sass/_estructura.scss */
 body .flex-row {
   display: flex;
 }
 
-/* line 73, ../TTTTTTT/sass/_estructura.scss */
+/* line 78, ../TTTTTTT/sass/_estructura.scss */
 body .flex-column {
   display: flex;
 }
 
-/* line 78, ../TTTTTTT/sass/_estructura.scss */
+/* line 83, ../TTTTTTT/sass/_estructura.scss */
 body .noticia, body .seccion1 {
   margin: 4px;
 }
@@ -287,6 +292,14 @@ body .noticia, body .seccion1 {
 }
 
 /* line 169, ../TTTTTTT/sass/_detalles.scss */
+.imgcamp {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* line 175, ../TTTTTTT/sass/_detalles.scss */
 footer {
   justify-content: space-around;
   flex-direction: column;
@@ -295,22 +308,22 @@ footer {
   flex-wrap: wrap;
 }
 
-/* line 178, ../TTTTTTT/sass/_detalles.scss */
+/* line 184, ../TTTTTTT/sass/_detalles.scss */
 .flex-row {
   flex-wrap: wrap;
 }
 
-/* line 181, ../TTTTTTT/sass/_detalles.scss */
+/* line 187, ../TTTTTTT/sass/_detalles.scss */
 .leyendapie {
   text-align: center;
 }
 
-/* line 187, ../TTTTTTT/sass/_detalles.scss */
+/* line 193, ../TTTTTTT/sass/_detalles.scss */
 .flex-row {
   justify-content: space-between;
 }
 
-/* line 194, ../TTTTTTT/sass/_detalles.scss */
+/* line 200, ../TTTTTTT/sass/_detalles.scss */
 .animacionunite {
   text-align: center;
   color: black;
@@ -320,12 +333,12 @@ footer {
   overflow: hidden;
 }
 
-/* line 205, ../TTTTTTT/sass/_detalles.scss */
+/* line 211, ../TTTTTTT/sass/_detalles.scss */
 .divan2 {
   color: white;
 }
 
-/* line 211, ../TTTTTTT/sass/_detalles.scss */
+/* line 217, ../TTTTTTT/sass/_detalles.scss */
 .divan {
   display: inline-block;
   overflow: hidden;
@@ -333,7 +346,7 @@ footer {
   color: white;
 }
 
-/* line 218, ../TTTTTTT/sass/_detalles.scss */
+/* line 224, ../TTTTTTT/sass/_detalles.scss */
 .divan:first-of-type {
   /* For increasing performance 
                            ID/Class should've been used. 
@@ -342,13 +355,13 @@ footer {
   animation: showup 7s infinite;
 }
 
-/* line 225, ../TTTTTTT/sass/_detalles.scss */
+/* line 231, ../TTTTTTT/sass/_detalles.scss */
 .divan:last-of-type {
   width: 0px;
   animation: reveal 7s infinite;
 }
 
-/* line 230, ../TTTTTTT/sass/_detalles.scss */
+/* line 236, ../TTTTTTT/sass/_detalles.scss */
 .divan:last-of-type span {
   margin-left: -355px;
   animation: slidein 7s infinite;
@@ -410,106 +423,111 @@ body .encabezado {
   background: url(../imagenes/fondofan.jpg);
 }
 
-/* line 12, ../TTTTTTT/sass/_colores.scss */
-body section .titulo {
+/* line 11, ../TTTTTTT/sass/_colores.scss */
+body .sechistoria .titulocamp {
   color: #d30b0b;
 }
 
 /* line 14, ../TTTTTTT/sass/_colores.scss */
+body .sechistoria .titulocamp span {
+  color: black;
+}
+
+/* line 17, ../TTTTTTT/sass/_colores.scss */
+body .sechistoria .titulocamp .titulo {
+  color: #d30b0b;
+}
+
+/* line 25, ../TTTTTTT/sass/_colores.scss */
+body section .titulo {
+  color: #d30b0b;
+}
+
+/* line 27, ../TTTTTTT/sass/_colores.scss */
 body section .titulo span {
   color: black;
 }
 
-/* line 18, ../TTTTTTT/sass/_colores.scss */
+/* line 31, ../TTTTTTT/sass/_colores.scss */
 body section .titulo2 {
   color: #d30b0b;
 }
 
-/* line 21, ../TTTTTTT/sass/_colores.scss */
-body section .titulocamp {
-  color: #d30b0b;
+/* line 38, ../TTTTTTT/sass/_colores.scss */
+body .liga {
+  background-color: black;
 }
 
-/* line 23, ../TTTTTTT/sass/_colores.scss */
-body section .titulocamp span {
-  color: black;
-}
-
-/* line 27, ../TTTTTTT/sass/_colores.scss */
-body section #titcamp {
-  color: aqua;
-}
-
-/* line 33, ../TTTTTTT/sass/_colores.scss */
+/* line 42, ../TTTTTTT/sass/_colores.scss */
 body .tiendaoficial {
   background-color: #d30b0b;
 }
 
-/* line 36, ../TTTTTTT/sass/_colores.scss */
+/* line 45, ../TTTTTTT/sass/_colores.scss */
 body .display-2 {
   color: white;
 }
 
-/* line 38, ../TTTTTTT/sass/_colores.scss */
+/* line 47, ../TTTTTTT/sass/_colores.scss */
 body .videosyoutube {
   background-color: black;
 }
 
-/* line 41, ../TTTTTTT/sass/_colores.scss */
+/* line 50, ../TTTTTTT/sass/_colores.scss */
 body .tituloglorias {
   color: white;
 }
 
-/* line 44, ../TTTTTTT/sass/_colores.scss */
+/* line 53, ../TTTTTTT/sass/_colores.scss */
 body .formulario {
   background-image: url("../imagenes/tribuna.jpg");
   color: white;
 }
 
-/* line 48, ../TTTTTTT/sass/_colores.scss */
+/* line 57, ../TTTTTTT/sass/_colores.scss */
 body .formulario .formunob {
   background-color: rgba(120, 119, 123, 0.3);
 }
 
-/* line 55, ../TTTTTTT/sass/_colores.scss */
+/* line 64, ../TTTTTTT/sass/_colores.scss */
 body .fixture {
   color: black;
   background-image: url("../imagenes/jugadores.jpg");
 }
 
-/* line 62, ../TTTTTTT/sass/_colores.scss */
+/* line 71, ../TTTTTTT/sass/_colores.scss */
 body .noticia h3 {
   font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* line 67, ../TTTTTTT/sass/_colores.scss */
+/* line 76, ../TTTTTTT/sass/_colores.scss */
 body .noticia h4 {
   color: grey;
 }
 
-/* line 73, ../TTTTTTT/sass/_colores.scss */
+/* line 82, ../TTTTTTT/sass/_colores.scss */
 body footer {
   background: #d30b0b;
 }
 
-/* line 75, ../TTTTTTT/sass/_colores.scss */
+/* line 84, ../TTTTTTT/sass/_colores.scss */
 body footer a {
   color: #383636;
 }
 
-/* line 79, ../TTTTTTT/sass/_colores.scss */
+/* line 88, ../TTTTTTT/sass/_colores.scss */
 body footer h4 {
   color: black;
 }
 
-/* line 82, ../TTTTTTT/sass/_colores.scss */
+/* line 91, ../TTTTTTT/sass/_colores.scss */
 body footer .leyendapie {
   background-color: black;
   color: #d30b0b;
 }
 
-/* line 87, ../TTTTTTT/sass/_colores.scss */
+/* line 96, ../TTTTTTT/sass/_colores.scss */
 body .glorias {
   background: url(../imagenes/fondonob.jpg);
 }
